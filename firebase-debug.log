@@ -1,0 +1,39 @@
+[debug] [2021-03-12T08:46:29.506Z] ----------------------------------------------------------------------
+[debug] [2021-03-12T08:46:29.526Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Arpit\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2021-03-12T08:46:29.527Z] CLI Version:   9.5.0
+[debug] [2021-03-12T08:46:29.527Z] Platform:      win32
+[debug] [2021-03-12T08:46:29.527Z] Node Version:  v14.15.4
+[debug] [2021-03-12T08:46:29.610Z] Time:          Fri Mar 12 2021 14:16:29 GMT+0530 (India Standard Time)
+[debug] [2021-03-12T08:46:29.610Z] ----------------------------------------------------------------------
+[debug] [2021-03-12T08:46:29.610Z] 
+[debug] [2021-03-12T08:46:29.662Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-03-12T08:46:29.663Z] > authorizing via signed-in user
+[debug] [2021-03-12T08:46:29.663Z] [iam] checking project tandoori-ui for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2021-03-12T08:46:29.669Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-03-12T08:46:29.670Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-03-12T08:46:30.419Z] <<< HTTP RESPONSE 200 {"date":"Fri, 12 Mar 2021 08:46:32 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-03-12T08:46:30.495Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/tandoori-ui:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2021-03-12T08:46:31.998Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 12 Mar 2021 08:46:34 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1176","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-03-12T08:46:32.001Z] > refreshing access token with scopes: []
+[debug] [2021-03-12T08:46:32.001Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-03-12T08:46:32.348Z] <<< HTTP RESPONSE 200 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","date":"Fri, 12 Mar 2021 08:46:34 GMT","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-03-12T08:46:33.169Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/tandoori-ui [none]
+[debug] [2021-03-12T08:46:33.841Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/tandoori-ui 200
+[debug] [2021-03-12T08:46:33.841Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/tandoori-ui {"projectId":"tandoori-ui","projectNumber":"616067477640","displayName":"tandoori-ui","name":"projects/tandoori-ui","resources":{"hostingSite":"tandoori-ui"},"state":"ACTIVE"}
+[info] 
+[info] === Deploying to 'tandoori-ui'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2021-03-12T08:46:33.851Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-03-12T08:46:33.852Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-03-12T08:46:34.184Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","date":"Fri, 12 Mar 2021 08:46:36 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-03-12T08:46:34.586Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/tandoori-ui/versions  
+ {"config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2021-03-12T08:46:36.217Z] Error: getaddrinfo EAI_AGAIN firebasehosting.googleapis.com
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:67:26)
+[error] 
+[error] Error: Server Error. getaddrinfo EAI_AGAIN firebasehosting.googleapis.com
